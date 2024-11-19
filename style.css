@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f6e9dc;
+  color: #3c3c3c;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-container img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+h1 {
+  font-size: 2em;
+  color: #3c3c3c;
+  margin: 20px 0 10px;
+}
+
+.description {
+  font-size: 1em;
+  color: #6c6c6c;
+  margin-bottom: 20px;
+}
+
+.prep-time {
+  background: #fbeff8;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.prep-time h3 {
+  margin: 0 0 10px;
+  font-size: 1.2em;
+  color: #3c3c3c;
+}
+
+.prep-time p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #6c6c6c;
+}
+
+h2 {
+  color: #7c5226;
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+ul,
+ol {
+  margin: 10px 0 20px;
+  padding-left: 20px;
+}
+
+ul li,
+ol li {
+  font-size: 0.9em;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.nutrition {
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+.nutrition table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9em;
+  color: #6c6c6c;
+}
+
+.nutrition table th,
+.nutrition table td {
+  padding: 8px 10px;
+  text-align: left;
+}
+
+.nutrition table th {
+  color: #3c3c3c;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    margin: 10px;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+    margin: 15px 0;
+  }
+
+  .description {
+    font-size: 0.9em;
+  }
+
+  .prep-time {
+    padding: 10px;
+  }
+
+  .prep-time h3 {
+    font-size: 1.1em;
+  }
+
+  ul li,
+  ol li {
+    font-size: 0.85em;
+  }
+
+  .nutrition table th,
+  .nutrition table td {
+    font-size: 0.8em;
+    padding: 5px 8px;
+  }
+}
+
+/* Desktop View Styles (for screens larger than 1200px) */
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1000px;
+    padding: 40px;
+  }
+
+  h1 {
+    font-size: 2.5em;
+    margin: 30px 0;
+  }
+
+  .description {
+    font-size: 1.1em;
+  }
+
+  ul li,
+  ol li {
+    font-size: 1em;
+  }
+
+  .prep-time {
+    padding: 20px;
+  }
+}
